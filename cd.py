@@ -21,7 +21,7 @@ st.set_page_config(
 # Compatibilidad con Streamlit Cloud y desarrollo local
 MAILGUN_DOMAIN = st.secrets.get("MAILGUN_DOMAIN", os.getenv("MAILGUN_DOMAIN"))
 MAILGUN_API_KEY = st.secrets.get("MAILGUN_API_KEY", os.getenv("MAILGUN_API_KEY"))
-RECIPIENT_EMAIL = st.secrets.get("RECIPIENT_EMAIL", os.getenv("RECIPIENT_EMAIL", "fse.scs@gobiernodecanarias.org"))
+RECIPIENT_EMAIL = st.secrets.get("RECIPIENT_EMAIL", os.getenv("RECIPIENT_EMAIL", "fse.scs.evalres@gmail.com"))
 
 # Datos de configuración
 FORMACION_PROFESIONAL = [
